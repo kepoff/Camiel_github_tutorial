@@ -16,7 +16,7 @@ e.g.
 
 - use "git status" to see what changed
 
-- use "git commit -a -m" 
+- use "git commit -a -m" if you use -m than you need to write a message. -a means all the files will be committed 
 
 - use "git push" to publish on git hub and input username and password
 
