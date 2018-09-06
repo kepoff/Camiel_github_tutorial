@@ -20,4 +20,9 @@ e.g.
 
 - use "git push" to publish on git hub and input username and password
 
+- To add another file, we can use "git status", followed by "git add filename.md"
+
+- Then git commit -a -m "message" then git push
+
+
  
