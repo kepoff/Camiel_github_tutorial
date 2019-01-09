@@ -53,7 +53,7 @@ e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git commit -a -m all_fall_2
 
 e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git remote add origin https://github.com/kepoff/Coursework_fall_2
 
--Use git push -u origin master to push all into GitHub repository
+- Use git push -u origin master to push all into GitHub repository
 
 e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git push -u origin master
 
