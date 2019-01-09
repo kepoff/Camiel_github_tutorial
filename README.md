@@ -25,5 +25,28 @@ e.g.
 
 - Then git commit -a -m "message" then git push
 
+# To add a directory from your computer to GitHub
 
- 
+- Change directory to the folder/folders/files you want to push
+e.g. Kirstens-MacBook-Pro:Deep_Trap_project poff$ cd /Users/poff/Documents/Fall_2018_coursework/
+
+- Use git init to create a strange "repository" called .git
+e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git init
+
+-Use git add to add all files you want to commit
+e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git add /Users/poff/Documents/Fall_2018_coursework/
+
+-Use git status to check if all your files will be pushed
+e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git status
+
+-Use git commit -a -m to see what is committed
+e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git commit -a -m all_fall_2018_coursework
+
+-Go to GitHub and create a repository that this will all be pushed to and copy URL
+
+-Use git remote add origin "URL"
+e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git remote add origin https://github.com/kepoff/Coursework_fall_2
+
+-Use git push -u origin master to push all into GitHub repository
+e.g. Kirstens-MacBook-Pro:Fall_2018_coursework poff$ git push -u origin master
+
